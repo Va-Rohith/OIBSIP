@@ -192,6 +192,11 @@ footer{
   color: var(--darkColor);
   text-align: center;
   padding: 15px 0px;
+
+  @media (orientation: landscape) {
+    position: static;
+    margin-top: 10px; /* Adjust this value as needed to prevent overlapping */
+  }
 }
 
 /* footer link */

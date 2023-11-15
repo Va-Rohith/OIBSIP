@@ -1,5 +1,5 @@
 
-  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
 * {
   margin: 0;
@@ -186,12 +186,13 @@ button:hover{
 }
 
 #about p {
-  margin: 0 20%;
   color: #7b1616;
   font-weight: 600;
   font-size: 20px;
   font-family: 'Times New Roman', Times, serif;
   font-style: oblique;
+  text-align: left;
+  
 }
 
 #Education{
@@ -333,4 +334,79 @@ button:hover{
 
 #Projects img{
   height: 200px;
+}
+
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  #header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      display: flex; /* Add this line to create a flex container */
+      justify-content: space-between; /* Adjust this as needed */
+      align-items: center; /* Center the items vertically */
+  }
+
+  #header .logo {
+    margin-right: 18px;
+  }
+
+  #navbar {
+      display: flex;
+  }
+
+  #navbar li {
+      list-style: none;
+      padding: 10px 4px;
+  }
+
+  #navbar li a {
+      text-decoration: none;
+      font-size: 12px;
+      font-weight: 600;
+      color: #1a1a1a;
+      transition: 0.3s ease;
+  }
+  
+  #about p {
+    font-size: 14px;
+  }
+
+  .section-p1 {
+    padding: 40px 20px;
+    text-align: justify;
+  }
+  
+  #hero {
+    max-width: 100%; /* Increase the height to fill the screen */
+  }
+
+  .profile-desc h1 {
+    margin-left: 10px;
+    font-size: 24px;
+    white-space: nowrap;
+  }
+
+  .profile-pic img{
+    max-width: 80%;
+    margin-left: 40px;
+    border: 5px solid #841010a2;
+  }
+
+  .social a{
+    text-decoration: none;
+    color: #222;
+    font-size: 20px;
+    letter-spacing: 7px;
+  }
+
+  #Skills .skill {
+    width: 100%;
+  }
+
+  #Projects .details-container h2 {
+    font-size: 24px;
+  }
 }
