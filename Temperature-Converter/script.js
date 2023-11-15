@@ -1,5 +1,4 @@
 // Temperature converter
-
 const input = document.querySelector('#input-box')
 const result = document.querySelector('#result-box')
 const inputSelect = document.querySelector('#input-dropdown')
