@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
 * {
@@ -339,47 +340,33 @@ button:hover{
 /* Mobile Styles */
 @media (max-width: 768px) {
   #header {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      display: flex; /* Add this line to create a flex container */
-      justify-content: space-between; /* Adjust this as needed */
-      align-items: center; /* Center the items vertically */
-  }
-
-  #header .logo {
-    margin-right: 18px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px; /* Adjust padding as needed */
   }
 
   #navbar {
-      display: flex;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
   }
 
   #navbar li {
-      list-style: none;
-      padding: 10px 4px;
+    padding: 4px;
   }
 
   #navbar li a {
-      text-decoration: none;
-      font-size: 12px;
-      font-weight: 600;
-      color: #1a1a1a;
-      transition: 0.3s ease;
-  }
-  
-  #about p {
-    font-size: 14px;
+    font-size: 10px;
   }
 
-  .section-p1 {
-    padding: 40px 20px;
-    text-align: justify;
-  }
-  
   #hero {
-    max-width: 100%; /* Increase the height to fill the screen */
+    height: auto;
+    min-height: 100vh;
   }
 
   .profile-desc h1 {
@@ -388,24 +375,73 @@ button:hover{
     white-space: nowrap;
   }
 
-  .profile-pic img{
+  .profile-pic img {
     max-width: 80%;
-    margin-left: 40px;
-    border: 5px solid #841010a2;
+    margin-left: 20px;
   }
 
-  .social a{
-    text-decoration: none;
-    color: #222;
-    font-size: 20px;
+  .social a {
+    font-size: 18px;
     letter-spacing: 7px;
   }
 
+  #about p {
+    font-size: 14px;
+  }
+
+  #about .about-buttons #resButton {
+    margin-bottom: 2px;
+    margin-left: 50px;
+  }
+
+  #about .about-buttons #conButton {
+    margin-left: 50px;
+  }
+
+  #Education h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+
+  #Education h4 {
+    font-size: 16px;
+  }
+
   #Skills .skill {
+    flex-direction: column;
+  }
+
+  #Skills .details-container {
     width: 100%;
+    margin-bottom: 20px;
+  }
+
+  #Skills h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+
+  #Skills h4 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+
+  #Skills .details-container h3,
+  #Skills .details-container h4 {
+    margin-bottom: 5px;
   }
 
   #Projects .details-container h2 {
-    font-size: 24px;
+    font-size: 16px;
+    margin-left: 0;
+    margin-bottom: 5px;
+  }
+
+  #Projects .btn-container {
+    margin-top: 5px;
+  }
+
+  #Contact {
+    padding: 20px;
   }
 }

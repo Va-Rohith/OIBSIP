@@ -31,24 +31,26 @@
     <!--Body part-->
     <section id="hero">
         <div class="profile-desc">
-        <h4>Hello, I'm</h4>
-        <h1>Rohith Vankayalapati</h1>
-        
-        <button class="white" onclick="location.href='#about'">About Me</button>
-        <div class="social">
-            <a href="https://www.linkedin.com/in/rohith-vankayalapati/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-            <a href="https://github.com/Va-Rohith" target="_blank"><i class="fa-brands fa-github"></i></a>
-            <a href="#"><i class="fa-brands fa-facebook"></i></a>
-            <a href="#"><i class="fa-brands fa-instagram"></i></a>
-            <a href="#"><i class="fa-brands fa-twitter"></i></a>
-            <!-- Other social icons -->
-        </div>
+            <h4>Hello, I'm</h4>
+            <h1>Rohith Vankayalapati</h1>
+            <button class="white" onclick="location.href='#about'">About Me</button>
+            <div class="social">
+                <a href="https://www.linkedin.com/in/rohith-vankayalapati/" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/Va-Rohith" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <!-- Other social icons -->
+            </div>
         </div>
         <div class="profile-pic">
             <img src="templates/profile.JPG" alt="" width="300px">
         </div>
     </section>
-    
     <section id="about" class="section-m1 section-p1">
         <h2>About Me</h2>
         <p>Hello Everyone! I am Rohith Vankayalapati,
@@ -56,12 +58,12 @@
         </p>
 
         <div class="about-buttons">
-        <button class="white" onclick="window.open('templates/Resume.pdf')">My Resume <i class="fa-solid fa-download"></i></button>
-        <button class="white" onclick="location.href='#Contact'">Contact Me <i class="fa-solid fa-address-book"></i></button>
+        <button class="white" id="resButton" onclick="window.open('templates/Resume.pdf')">My Resume <i class="fa-solid fa-download"></i></button>
+        <button class="white" id="conButton" onclick="location.href='#Contact'">Contact Me <i class="fa-solid fa-address-book"></i></button>
 
         </div>
     </section>
-    
+
     <section id="Education" class="section-m1">
         <h2>Education</h2>
         <h4>SSC |2018</h4>
@@ -114,7 +116,7 @@
                 <div class="article-container">
                     <img src="templates/proj-1.png" alt="">
                 </div>
-                <h2>Temperature Convertor</h2>
+                <h2>Temperature Converter</h2>
                 <div class="btn-container">
                     <button class="white" onclick="window.open('https://va-rohith.github.io/OIBSIP/Temperature-Converter/')">Visit The Page</button>
                 </div>
