@@ -160,7 +160,7 @@ button:hover{
   }
 
   #header {
-    padding: 10px 20px;
+    padding: 10px 10px;
   }
 
   #navbar li {
@@ -168,15 +168,15 @@ button:hover{
   }
 
   #navbar li a {
-    font-size: 11px; /* Adjust font size for the navbar elements on mobile devices */
+    font-size: 10px; /* Adjust font size for the navbar elements on mobile devices */
   }
 
   .logo {
-    font-size: 18px; /* Adjust font size for the logo on mobile devices */
+    font-size: 16px; /* Adjust font size for the logo on mobile devices */
   }
 
   .register button.white {
     font-size: 11px; /* Adjust font size for the register button on mobile devices */
-    padding: 8px 14px; /* Adjust padding for the register button on mobile devices */
+    padding: 8px 12px; /* Adjust padding for the register button on mobile devices */
   }
 }
