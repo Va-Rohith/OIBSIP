@@ -1,7 +1,5 @@
 # OIBSIP - Oasis Infobyte Intern Program
 
-[𝐋𝐢𝐯𝐞 𝐖𝐞𝐛𝐬𝐢𝐭𝐞](https://rohithv.netlify.app/) <br>
-
 ### Task1 - Landing Page
 A Basic Landing Page was created under the virtual internship program of Oasis Infobyte. <br>
 [Live](https://va-rohith.github.io/OIBSIP/Landing-Page/)
